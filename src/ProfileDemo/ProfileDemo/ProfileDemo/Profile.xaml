@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProfileDemo.Profile">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="50">
+                <Image Source="doctor.png" HeightRequest="100" WidthRequest="100" 
+                       VerticalOptions="Center" HorizontalOptions="Center"/>
+                <Label Text="Md Mizanur Rahman" TextColor="#54d" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+                <Label Text="Dhaka, Bangladesh" TextColor="#54d" FontSize="15" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            </StackLayout>
+            
+            <StackLayout Padding="50">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Mizan21@gmail.com" Grid.Column="0" Grid.Row="0"/>
+                    <Label Text="01943663191" Grid.Column="1" Grid.Row="0"/>
+                </Grid>
+            </StackLayout>
+
+            <StackLayout Padding="20" BackgroundColor="#F5F6F7">
+                <Grid HorizontalOptions="Center" VerticalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    
+                    <StackLayout>
+                        <Image Source="doctor.png" HeightRequest="50" WidthRequest="50" Grid.Column="0" Grid.Row="0"/>
+                        <Label Padding="10" HorizontalOptions="Center" VerticalOptions="Center" TextTransform="Uppercase" 
+                           BackgroundColor="#fff" Text="Documents" Grid.Column="0" Grid.Row="0" HeightRequest="120" WidthRequest="120"/>
+                    </StackLayout>
+                    
+                    <Label HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextTransform="Uppercase"
+                           BackgroundColor="#fff" Text="About" Grid.Column="1" Grid.Row="0" HeightRequest="100" WidthRequest="100"/>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
