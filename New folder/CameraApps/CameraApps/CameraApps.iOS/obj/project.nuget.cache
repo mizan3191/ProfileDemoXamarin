@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "19dZcwKtPUarnrX+NTDNzBKmDxJZz/rD4xWyqD1iJzvozdfS933ibYdkseHnrVvSGtHkxa5K35pADTE8K9PIEQ==",
+  "success": true,
+  "projectFilePath": "D:\\Mysoft\\CameraApps\\CameraApps\\CameraApps.iOS\\CameraApps.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

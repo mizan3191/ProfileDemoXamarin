@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyscoundApp.Views.TabLayoutPage"
+            xmlns:local1="clr-namespace:MyscoundApp.Views"
+            NavigationPage.HasNavigationBar="False"
+            BarBackgroundColor="Black"
+            SelectedTabColor="Red"
+            UnselectedTabColor="White"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
+           android:TabbedPage.ToolbarPlacement="Bottom">
+    <local1:UserProfile Title="UserProfile" IconImageSource="icon_about"/>
+    <local1:Registrasion Title="Registrasion" IconImageSource="icon_feed"/>
+    <!--<ContentPage Title="About" IconImageSource="icon_about">
+
+        <Label>Welcome to about Page</Label>
+    </ContentPage>
+    <ContentPage Title="Course" IconImageSource="icon_feed">
+
+        <Label>Welcome to Course Page</Label>
+    </ContentPage>-->
+</TabbedPage>

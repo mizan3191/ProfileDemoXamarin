@@ -1,0 +1,15 @@
+D:\Mysoft\CameraApps\CameraApps\CameraApps\bin\Debug\netstandard2.0\CameraApps.deps.json
+D:\Mysoft\CameraApps\CameraApps\CameraApps\bin\Debug\netstandard2.0\CameraApps.dll
+D:\Mysoft\CameraApps\CameraApps\CameraApps\bin\Debug\netstandard2.0\CameraApps.pdb
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.csproj.AssemblyReference.cache
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.AssemblyInfoInputs.cache
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.AssemblyInfo.cs
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.csproj.CoreCompileInputs.cache
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.dll
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\refint\CameraApps.dll
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.pdb
+D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\ref\CameraApps.dll
