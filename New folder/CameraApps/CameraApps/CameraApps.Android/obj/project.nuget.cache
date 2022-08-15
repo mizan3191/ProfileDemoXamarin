@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JqqMS8LbjnBKxYBWORMqVwKJP42lDei/wUkkVMzVoKR0c3YKNR1gKbk6u0P4mX3964ZMyKAyCklb+DFm8Af7oA==",
+  "dgSpecHash": "QanfzlXvWcSrhJf5P1F1L2lT03USSs5fvJdRMmU6zVKmKwbQXYS3HXYOdk/7Rb/N0xuzS8e4k8icvrokcQrFPw==",
   "success": true,
   "projectFilePath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps.Android\\CameraApps.Android.csproj",
   "expectedPackageFiles": [
@@ -8,11 +8,13 @@
     "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.buttons\\20.2.0.43\\syncfusion.xamarin.buttons.20.2.0.43.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.core\\20.2.0.43\\syncfusion.xamarin.core.20.2.0.43.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfautocomplete\\20.2.0.43\\syncfusion.xamarin.sfautocomplete.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfcalendar\\20.2.0.43\\syncfusion.xamarin.sfcalendar.20.2.0.43.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\20.2.0.43\\syncfusion.xamarin.sfcombobox.20.2.0.43.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfdataform\\20.2.0.43\\syncfusion.xamarin.sfdataform.20.2.0.43.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfmaskededit\\20.2.0.43\\syncfusion.xamarin.sfmaskededit.20.2.0.43.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfnumerictextbox\\20.2.0.43\\syncfusion.xamarin.sfnumerictextbox.20.2.0.43.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfnumericupdown\\20.2.0.43\\syncfusion.xamarin.sfnumericupdown.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfpicker\\20.2.0.43\\syncfusion.xamarin.sfpicker.20.2.0.43.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",

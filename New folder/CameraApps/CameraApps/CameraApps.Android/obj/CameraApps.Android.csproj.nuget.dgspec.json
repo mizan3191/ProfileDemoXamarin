@@ -100,7 +100,19 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Syncfusion.Xamarin.SfCalendar": {
+              "target": "Package",
+              "version": "[20.2.0.43, )"
+            },
+            "Syncfusion.Xamarin.SfComboBox": {
+              "target": "Package",
+              "version": "[20.2.0.43, )"
+            },
             "Syncfusion.Xamarin.SfDataForm": {
+              "target": "Package",
+              "version": "[20.2.0.43, )"
+            },
+            "Syncfusion.Xamarin.SfPicker": {
               "target": "Package",
               "version": "[20.2.0.43, )"
             },

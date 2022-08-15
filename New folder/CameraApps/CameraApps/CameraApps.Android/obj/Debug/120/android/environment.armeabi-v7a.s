@@ -521,6 +521,26 @@ app_system_properties:
 .L.env.buf.115:
 	.zero	63
 	.size	.L.env.buf.115, 63
+	.type	.L.env.buf.116, %object
+.L.env.buf.116:
+	.zero	63
+	.size	.L.env.buf.116, 63
+	.type	.L.env.buf.117, %object
+.L.env.buf.117:
+	.zero	63
+	.size	.L.env.buf.117, 63
+	.type	.L.env.buf.118, %object
+.L.env.buf.118:
+	.zero	63
+	.size	.L.env.buf.118, 63
+	.type	.L.env.buf.119, %object
+.L.env.buf.119:
+	.zero	63
+	.size	.L.env.buf.119, 63
+	.type	.L.env.buf.120, %object
+.L.env.buf.120:
+	.zero	63
+	.size	.L.env.buf.120, 63
 	@ Bundled assemblies data
 
 	.type	bundled_assemblies, %object
@@ -1341,7 +1361,42 @@ bundled_assemblies:
 	.long	0x0	@ name_length
 	.long	.L.env.buf.115	@ name
 
-	.size	bundled_assemblies, 2784
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.116	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.117	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.118	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.119	@ name
+
+	.long	0xffffffff	@ apk_fd
+	.long	0x0	@ data_offset
+	.long	0x0	@ data_size
+	.long	0x0	@ data
+	.long	0x0	@ name_length
+	.long	.L.env.buf.120	@ name
+
+	.size	bundled_assemblies, 2904
 	@ Assembly store individual assembly data
 	.type	assembly_store_bundled_assemblies, %object
 	.global	assembly_store_bundled_assemblies
@@ -1608,7 +1663,7 @@ application_config:
 	.long	0x3	@ package_naming_policy
 	.long	0xc	@ environment_variable_count
 	.long	0x0	@ system_property_count
-	.long	0x74	@ number_of_assemblies_in_apk
+	.long	0x79	@ number_of_assemblies_in_apk
 	.long	0x3f	@ bundled_assembly_name_width
 	.long	0x2	@ number_of_assembly_store_files
 	.long	0x1c	@ number_of_dso_cache_entries
@@ -1650,7 +1705,7 @@ application_config:
 
 	.type	.L.autostr.6, %object
 .L.autostr.6:
-	.asciz	"c93ce4e5-21b6-4e1c-9953-9626b60cde86"
+	.asciz	"b006e8a0-9663-434f-96c7-8217a6fbcfcf"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, %object

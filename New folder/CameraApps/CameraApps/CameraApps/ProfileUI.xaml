@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms" 
+             xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms" 
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms" 
+             xmlns:syncfusion1="http://schemas.syncfusion.com/xamarin"
              x:Class="CameraApps.ProfileUI">
 
     <ContentPage.Resources>
@@ -110,8 +113,18 @@
                             Hint="Gender" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                            <Entry TextColor="Black" Keyboard="Text"/>
-                        </inputLayout:SfTextInputLayout>
+
+                        <Picker x:Name="GenderPicker" >
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Male</x:String>
+                                    <x:String>Female</x:String>
+                                    <x:String>Other</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+
+                    </inputLayout:SfTextInputLayout>
 
 
                     <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="1" Margin="0,0,0,5"
@@ -125,8 +138,11 @@
                             Hint="Date of Birth" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                            <Entry TextColor="Black" Keyboard="Numeric"/>
-                        </inputLayout:SfTextInputLayout>
+
+                        <DatePicker x:Name="startDatePicker"
+                                    Format="D" />
+
+                    </inputLayout:SfTextInputLayout>
 
 
                     <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="2" Margin="0,0,0,5"
@@ -147,19 +163,36 @@
                         Hint="State" 
                         ContainerType="Outlined"
                         OutlineCornerRadius="8">
-                            <Entry TextColor="Black" Keyboard="Text"/>
-                        </inputLayout:SfTextInputLayout>
+
+                        <Picker x:Name="StatePicker" >
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Mymensingh</x:String>
+                                    <x:String>Dhaka</x:String>
+                                    <x:String>Rangpur</x:String>
+                                    <x:String>Barishal</x:String>
+                                    <x:String>Chattogram</x:String>
+                                    <x:String>Sylhet</x:String>
+                                    <x:String>Rajshahi</x:String>
+                                    <x:String>Khulna</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </inputLayout:SfTextInputLayout>
 
                     <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="3" Margin="0,0,0,5"
                             Hint="Zip Code" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                            <Entry TextColor="Black" Keyboard="Numeric"/>
-                        </inputLayout:SfTextInputLayout>
+
+                        <Entry TextColor="Black" Keyboard="Numeric"/>
+
+                    </inputLayout:SfTextInputLayout>
                     </Grid>
                 </StackLayout>
-               
-                <StackLayout TranslationX="0" TranslationY="-210" BackgroundColor="White">
+            
+
+            <StackLayout TranslationX="0" TranslationY="-210" BackgroundColor="White">
                     <Button Text="Submit"
                     TextColor="White"   
                     BackgroundColor="#006DCB"

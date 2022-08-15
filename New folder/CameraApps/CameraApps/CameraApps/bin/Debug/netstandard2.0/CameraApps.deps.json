@@ -10,7 +10,10 @@
       "CameraApps/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "Syncfusion.Xamarin.SfCalendar": "20.2.0.43",
+          "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
+          "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -64,6 +67,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.SfAutoComplete.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfCalendar/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfCalendar.XForms.dll": {
             "assemblyVersion": "20.2451.0.43",
             "fileVersion": "20.2451.0.43"
           }
@@ -131,6 +146,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfPicker/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfPicker.XForms.dll": {
             "assemblyVersion": "20.2451.0.43",
             "fileVersion": "20.2451.0.43"
           }
@@ -240,6 +267,13 @@
       "path": "syncfusion.xamarin.sfautocomplete/20.2.0.43",
       "hashPath": "syncfusion.xamarin.sfautocomplete.20.2.0.43.nupkg.sha512"
     },
+    "Syncfusion.Xamarin.SfCalendar/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VF0C0fX7X8fxIp6GIux3MkND1cT5vVkqIfWxSQzPv460PJO4gMyuePVbJNiejXOD2OjJFqSpHg2JKW3MAiQi8Q==",
+      "path": "syncfusion.xamarin.sfcalendar/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.sfcalendar.20.2.0.43.nupkg.sha512"
+    },
     "Syncfusion.Xamarin.SfComboBox/20.2.0.43": {
       "type": "package",
       "serviceable": true,
@@ -274,6 +308,13 @@
       "sha512": "sha512-LZkdgWY62ux8qVHwzr6YGSuo+wNe3gu60vfCEFdY10fSsqUAkQwL8rQMb0eIzcxvZiICL4NDoYuuG7fgO+AUbw==",
       "path": "syncfusion.xamarin.sfnumericupdown/20.2.0.43",
       "hashPath": "syncfusion.xamarin.sfnumericupdown.20.2.0.43.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfPicker/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xQiLWZptU48Pp07cK6KDC2CSTXcTEuHSlSTWrYZSx4sJ9YEubxzXbIeQU6Cs6uznrNCjSE7Vzbz0sPXpUduwkw==",
+      "path": "syncfusion.xamarin.sfpicker/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.sfpicker.20.2.0.43.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/4.5.0": {
       "type": "package",

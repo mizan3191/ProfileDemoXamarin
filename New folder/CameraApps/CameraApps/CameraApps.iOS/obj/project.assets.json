@@ -56,6 +56,21 @@
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfCalendar/20.2.0.43": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfComboBox/20.2.0.43": {
         "type": "package",
         "dependencies": {
@@ -138,6 +153,23 @@
         "runtime": {
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfPicker/20.2.0.43": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -317,7 +349,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfCalendar": "20.2.0.43",
+          "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
+          "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -385,6 +420,21 @@
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfCalendar/20.2.0.43": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfComboBox/20.2.0.43": {
         "type": "package",
         "dependencies": {
@@ -467,6 +517,23 @@
         "runtime": {
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfPicker/20.2.0.43": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -646,7 +713,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfCalendar": "20.2.0.43",
+          "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
+          "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -714,6 +784,21 @@
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfCalendar/20.2.0.43": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfComboBox/20.2.0.43": {
         "type": "package",
         "dependencies": {
@@ -796,6 +881,23 @@
         "runtime": {
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfPicker/20.2.0.43": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -975,7 +1077,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfCalendar": "20.2.0.43",
+          "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
+          "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -1043,6 +1148,21 @@
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfCalendar/20.2.0.43": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfComboBox/20.2.0.43": {
         "type": "package",
         "dependencies": {
@@ -1125,6 +1245,23 @@
         "runtime": {
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfPicker/20.2.0.43": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -1304,7 +1441,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.SfCalendar": "20.2.0.43",
+          "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
+          "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -1445,6 +1585,40 @@
         "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll",
         "syncfusion.xamarin.sfautocomplete.20.2.0.43.nupkg.sha512",
         "syncfusion.xamarin.sfautocomplete.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Xamarin.SfCalendar/20.2.0.43": {
+      "sha512": "VF0C0fX7X8fxIp6GIux3MkND1cT5vVkqIfWxSQzPv460PJO4gMyuePVbJNiejXOD2OjJFqSpHg2JKW3MAiQi8Q==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfcalendar/20.2.0.43",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfCalendar.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfCalendar.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfCalendar.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfCalendar.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfCalendar.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP/Themes/CalendarStyles.xaml",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Syncfusion.SfCalendar.XForms.UWP/Themes/Generic.xaml",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.xml",
+        "syncfusion.xamarin.sfcalendar.20.2.0.43.nupkg.sha512",
+        "syncfusion.xamarin.sfcalendar.nuspec",
         "syncfusion_logo.png"
       ]
     },
@@ -1601,6 +1775,38 @@
         "lib/uap10.0/Syncfusion.SfNumericUpDown.XForms.xml",
         "syncfusion.xamarin.sfnumericupdown.20.2.0.43.nupkg.sha512",
         "syncfusion.xamarin.sfnumericupdown.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Xamarin.SfPicker/20.2.0.43": {
+      "sha512": "xQiLWZptU48Pp07cK6KDC2CSTXcTEuHSlSTWrYZSx4sJ9YEubxzXbIeQU6Cs6uznrNCjSE7Vzbz0sPXpUduwkw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfpicker/20.2.0.43",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid10.0/Syncfusion.SfPicker.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfPicker.Android.xml",
+        "lib/MonoAndroid10.0/Syncfusion.SfPicker.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfPicker.XForms.XML",
+        "lib/MonoAndroid10.0/Syncfusion.SfPicker.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.xml",
+        "lib/netstandard2.0/Syncfusion.SfPicker.XForms.XML",
+        "lib/netstandard2.0/Syncfusion.SfPicker.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPicker.XForms.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPicker.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfPicker.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfPicker.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfPicker.XForms.XML",
+        "lib/uap10.0/Syncfusion.SfPicker.XForms.dll",
+        "syncfusion.xamarin.sfpicker.20.2.0.43.nupkg.sha512",
+        "syncfusion.xamarin.sfpicker.nuspec",
         "syncfusion_logo.png"
       ]
     },

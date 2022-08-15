@@ -146,3 +146,8 @@ D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.iOS
 D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.iOS\obj\iPhone\Debug\CameraApps.iOS.csproj.CopyComplete
 D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.iOS\obj\iPhone\Debug\CameraApps.iOS.exe
 D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.iOS\obj\iPhone\Debug\CameraApps.iOS.pdb
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.iOS\bin\iPhone\Debug\Syncfusion.SfCalendar.XForms.dll
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.iOS\bin\iPhone\Debug\Syncfusion.SfCalendar.XForms.iOS.dll
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.iOS\bin\iPhone\Debug\Syncfusion.SfPicker.XForms.dll
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.iOS\bin\iPhone\Debug\Syncfusion.SfPicker.XForms.iOS.dll
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.iOS\bin\iPhone\Debug\Syncfusion.SfPicker.iOS.dll
