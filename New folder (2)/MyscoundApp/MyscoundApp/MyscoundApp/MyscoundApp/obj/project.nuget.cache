@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8HpDbuHtwMkIio4Zt8z7j459VIZJ0wXPW/7bPwb0SkJqwc9sE10Nm437yFPL1FlJ8wOEzYGUReFSPyTfPmVvCw==",
+  "dgSpecHash": "XLwNazuoIhBnDVnPSiG4lckKSrEDfanAS1m1s3E+tg/vUTLlsoSeJv2TeH3BEahJghmFF9Iy6saEUCbd7ZdmQQ==",
   "success": true,
-  "projectFilePath": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj",
+  "projectFilePath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

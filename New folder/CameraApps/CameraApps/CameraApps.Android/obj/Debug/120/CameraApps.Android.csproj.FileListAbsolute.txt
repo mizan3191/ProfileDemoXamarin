@@ -1377,3 +1377,9 @@ D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.And
 D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.Android\obj\Debug\120\res\drawable\camera.png
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.Android\obj\Debug\120\res\drawable\icon_about.png
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.Android\obj\Debug\120\res\drawable\icon_feed.png
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.Android\obj\Debug\120\res\drawable\logins.png
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.Android\obj\Debug\120\res\drawable\testimg.jpg
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps.Android\obj\Debug\120\res\drawable\xamarin_logo.png

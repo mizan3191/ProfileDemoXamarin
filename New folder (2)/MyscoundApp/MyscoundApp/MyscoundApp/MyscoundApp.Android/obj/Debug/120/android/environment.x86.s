@@ -1782,7 +1782,7 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
-	.asciz	"c9b19fef-0bc9-4e8f-8bdc-ce5747e88468"
+	.asciz	"23f4bc0c-8722-4924-89bf-f05f5ca1a2de"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object

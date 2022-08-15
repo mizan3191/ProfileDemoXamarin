@@ -3,123 +3,172 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              x:Class="CameraApps.ProfileUI">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="stlImg" TargetType="Frame">
+                <Setter Property="TranslationY"    Value="{OnPlatform iOS='-150', Android='-33'}"/>
+                <Setter Property="HeightRequest"   Value="{OnPlatform iOS='120', Android='128'}"/>
+                <Setter Property="CornerRadius"     Value="100"/>
+
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        
-        <StackLayout Background="white" >
-            <StackLayout Padding="10,10,10,0">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition  />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition  />
-                        <ColumnDefinition  />
-                        <ColumnDefinition  />
-                    </Grid.ColumnDefinitions>
+            
+            <StackLayout Background="white" >
 
-                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="0"
-                Hint="FirstName" 
-                ContainerType="Outlined"
-                OutlineCornerRadius="8">
+                <StackLayout>
+                    <Grid BackgroundColor="White">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <!--<Image Grid.Row="0" Source="testimg.jpg" VerticalOptions="Start" TranslationY="-100"  />-->
+                        <Frame x:Name="BackGroundImg" HasShadow="False" >
+                            <Image  Source="testimg.jpg" VerticalOptions="Start" Aspect="AspectFill" TranslationY="-100" Opacity="0.3"   />
+                        </Frame>
+                        <!-- 1. Profile picture-->
+
+                        <AbsoluteLayout VerticalOptions="End">
+
+                            <!-- 2. Contact informaqtion frame-->
+
+                            <Frame x:Name="circleFrame" 
+                                   TranslationY="-250" TranslationX="-110" 
+                                   BorderColor="Black"   Padding="0" Margin="0"  
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100" 
+                                   Style="{StaticResource stlImg}" HeightRequest="180" WidthRequest="180" >
+                                <Image  Source="testimg.jpg" VerticalOptions="Start" Aspect="AspectFill"    />
+                            </Frame>
+
+                            <ImageButton Source="camera.png" x:Name="cameraButton" 
+                                 TranslationY="-190" TranslationX="-70" 
+                                 Padding="0" Margin="0" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                                 AbsoluteLayout.LayoutBounds="0.5, 0, 30, 30" BorderWidth="2"
+                                 HorizontalOptions="Center" VerticalOptions="CenterAndExpand" 
+                                 Clicked="ImageButton_Clicked" />
+                        </AbsoluteLayout>
+                    </Grid>
+                </StackLayout>
+
+            <StackLayout Padding="20,10,20,0" TranslationX="0" TranslationY="-250" BackgroundColor="White">
+                <Grid BackgroundColor="White">
+                        <Grid.RowDefinitions>
+                            <RowDefinition  />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition  />
+                            <ColumnDefinition  />
+                            <ColumnDefinition  />
+                        </Grid.ColumnDefinitions>
+
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="0" Margin="3"
+                            Hint="FirstName" 
+                            ContainerType="Outlined"
+                            OutlineCornerRadius="8">
                         <Entry TextColor="Black" Keyboard="Text" />
-                    </inputLayout:SfTextInputLayout>
+                        </inputLayout:SfTextInputLayout>
 
-                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="0"
-                Hint="FirstName" 
-                ContainerType="Outlined"
-                OutlineCornerRadius="8">
+                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="0" Margin="3"
+                            Hint="FirstName" 
+                            ContainerType="Outlined"
+                            OutlineCornerRadius="8">
                         <Entry TextColor="Black" Keyboard="Text" />
-                    </inputLayout:SfTextInputLayout>
+                        </inputLayout:SfTextInputLayout>
 
-                    <inputLayout:SfTextInputLayout Grid.Column="2" Grid.Row="0"
-                Hint="FirstName" 
-                ContainerType="Outlined"
-                OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Text" />
-                    </inputLayout:SfTextInputLayout>
-                </Grid>
+                    <inputLayout:SfTextInputLayout Grid.Column="2" Grid.Row="0" Margin="3"
+                            Hint="FirstName" 
+                            ContainerType="Outlined"
+                            OutlineCornerRadius="8">
+                            <Entry TextColor="Black" Keyboard="Text" />
+                        </inputLayout:SfTextInputLayout>
+                    </Grid>
 
-            </StackLayout>
+                </StackLayout>
 
-            <StackLayout Padding="10,0,10,0">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition  />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition  Width="2*"/>
-                        <ColumnDefinition  />
-                    </Grid.ColumnDefinitions>
+            <StackLayout Padding="20,10,20,0" TranslationX="0" TranslationY="-230" BackgroundColor="White">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition  />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition  Width="2*"/>
+                            <ColumnDefinition  />
+                        </Grid.ColumnDefinitions>
 
-                        <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="0"
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="0" Margin="0,15,0,5"
                         Hint="Email" 
                         ContainerType="Outlined"
                         OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Email" />
-                            </inputLayout:SfTextInputLayout>
+                            <Entry TextColor="Black" Keyboard="Email" />
+                        </inputLayout:SfTextInputLayout>
 
-                        <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="0"
+                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="0" Margin="0,15,0,5"
                             Hint="Gender" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Text"/>
-                    </inputLayout:SfTextInputLayout>
+                            <Entry TextColor="Black" Keyboard="Text"/>
+                        </inputLayout:SfTextInputLayout>
 
 
-                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="1"
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="1" Margin="0,15,0,5"
                         Hint="Tribal Enrollment Number" 
                         ContainerType="Outlined"
                         OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Text"/>
-                    </inputLayout:SfTextInputLayout>
+                            <Entry TextColor="Black" Keyboard="Text"/>
+                        </inputLayout:SfTextInputLayout>
 
-                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="1"
+                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="1" Margin="0,15,0,5"
                             Hint="Date of Birth" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Numeric"/>
-                    </inputLayout:SfTextInputLayout>
-                    
-                    
-                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="2"
+                            <Entry TextColor="Black" Keyboard="Numeric"/>
+                        </inputLayout:SfTextInputLayout>
+
+
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="2" Margin="0,15,0,5"
                         Hint="Address" 
                         ContainerType="Outlined"
                         OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Text" />
-                    </inputLayout:SfTextInputLayout>
+                            <Entry TextColor="Black" Keyboard="Text" />
+                        </inputLayout:SfTextInputLayout>
 
-                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="2"
+                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="2" Margin="0,15,0,5"
                             Hint="City" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Text"/>
-                    </inputLayout:SfTextInputLayout>
-                    
-                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="3"
+                            <Entry TextColor="Black" Keyboard="Text"/>
+                        </inputLayout:SfTextInputLayout>
+
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="3" Margin="0,15,0,5"
                         Hint="State" 
                         ContainerType="Outlined"
                         OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Text"/>
-                    </inputLayout:SfTextInputLayout>
+                            <Entry TextColor="Black" Keyboard="Text"/>
+                        </inputLayout:SfTextInputLayout>
 
-                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="3"
+                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="3" Margin="0,15,0,5"
                             Hint="Zip Code" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Numeric"/>
-                    </inputLayout:SfTextInputLayout>
-                </Grid>
-            </StackLayout>
-            <StackLayout>
-                <Button Text="Submit"
+                            <Entry TextColor="Black" Keyboard="Numeric"/>
+                        </inputLayout:SfTextInputLayout>
+                    </Grid>
+                </StackLayout>
+               
+                <StackLayout TranslationX="0" TranslationY="-200" BackgroundColor="White">
+                    <Button Text="Submit"
                     TextColor="White"   
                     BackgroundColor="#006DCB"
                     BorderRadius="10"
                     BorderWidth="2"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center"/>        
+                    VerticalOptions="Center"/>
+                </StackLayout>
             </StackLayout>
-            
-        </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

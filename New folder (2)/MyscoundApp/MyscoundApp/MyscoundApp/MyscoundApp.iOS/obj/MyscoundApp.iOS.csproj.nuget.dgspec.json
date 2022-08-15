@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj": {}
+    "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj": {
+    "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj",
+        "projectUniqueName": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj",
         "projectName": "MyscoundApp.iOS",
-        "projectPath": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj",
+        "projectPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\obj\\",
+        "outputPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj": {
-                "projectPath": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj"
+              "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj": {
+                "projectPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj": {
+    "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj",
+        "projectUniqueName": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj",
         "projectName": "MyscoundApp",
-        "projectPath": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj",
+        "projectPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\obj\\",
+        "outputPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

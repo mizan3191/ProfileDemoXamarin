@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gPAo+2OM8FbnVBADofJf8CRHh3w4kTmLu1Rk6iEQhSPSUry+yUn9qa6sydT6ZbgyUwyWfVzLLyBwKrXTO/zD2A==",
+  "dgSpecHash": "WdMD/M/leHl4pcMw0iqPOfT8YGgXwCGlUg1g/G19eSEkEt7ikCxmi/Hwd+YwAAFCXCxifcGvVAo6tnlmnMebnA==",
   "success": true,
-  "projectFilePath": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj",
+  "projectFilePath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder (2)\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.iOS\\MyscoundApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\npoi\\2.5.6\\npoi.2.5.6.nupkg.sha512",
