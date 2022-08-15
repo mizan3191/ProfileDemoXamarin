@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             x:Class="CameraApps.ProfileUI">
+    <ContentPage.Content>
+        
+        <StackLayout Background="white" >
+            <StackLayout Padding="10,10,10,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition  />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  />
+                        <ColumnDefinition  />
+                        <ColumnDefinition  />
+                    </Grid.ColumnDefinitions>
+
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="0"
+                Hint="FirstName" 
+                ContainerType="Outlined"
+                OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Text" />
+                    </inputLayout:SfTextInputLayout>
+
+                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="0"
+                Hint="FirstName" 
+                ContainerType="Outlined"
+                OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Text" />
+                    </inputLayout:SfTextInputLayout>
+
+                    <inputLayout:SfTextInputLayout Grid.Column="2" Grid.Row="0"
+                Hint="FirstName" 
+                ContainerType="Outlined"
+                OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Text" />
+                    </inputLayout:SfTextInputLayout>
+                </Grid>
+
+            </StackLayout>
+
+            <StackLayout Padding="10,0,10,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition  />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="2*"/>
+                        <ColumnDefinition  />
+                    </Grid.ColumnDefinitions>
+
+                        <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="0"
+                        Hint="Email" 
+                        ContainerType="Outlined"
+                        OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Email" />
+                            </inputLayout:SfTextInputLayout>
+
+                        <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="0"
+                            Hint="Gender" 
+                            ContainerType="Outlined"
+                            OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Text"/>
+                    </inputLayout:SfTextInputLayout>
+
+
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="1"
+                        Hint="Tribal Enrollment Number" 
+                        ContainerType="Outlined"
+                        OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Text"/>
+                    </inputLayout:SfTextInputLayout>
+
+                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="1"
+                            Hint="Date of Birth" 
+                            ContainerType="Outlined"
+                            OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Numeric"/>
+                    </inputLayout:SfTextInputLayout>
+                    
+                    
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="2"
+                        Hint="Address" 
+                        ContainerType="Outlined"
+                        OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Text" />
+                    </inputLayout:SfTextInputLayout>
+
+                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="2"
+                            Hint="City" 
+                            ContainerType="Outlined"
+                            OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Text"/>
+                    </inputLayout:SfTextInputLayout>
+                    
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="3"
+                        Hint="State" 
+                        ContainerType="Outlined"
+                        OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Text"/>
+                    </inputLayout:SfTextInputLayout>
+
+                    <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="3"
+                            Hint="Zip Code" 
+                            ContainerType="Outlined"
+                            OutlineCornerRadius="8">
+                        <Entry TextColor="Black" Keyboard="Numeric"/>
+                    </inputLayout:SfTextInputLayout>
+                </Grid>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Submit"
+                    TextColor="White"   
+                    BackgroundColor="#006DCB"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>        
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

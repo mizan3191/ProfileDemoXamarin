@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mysoft\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj": {}
+    "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj": {}
   },
   "projects": {
-    "D:\\Mysoft\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj": {
+    "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mysoft\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj",
+        "projectUniqueName": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj",
         "projectName": "CameraApps",
-        "projectPath": "D:\\Mysoft\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj",
+        "projectPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Mysoft\\CameraApps\\CameraApps\\CameraApps\\obj\\",
+        "outputPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Xamarin.SfDataForm": {
+              "target": "Package",
+              "version": "[20.2.0.43, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",

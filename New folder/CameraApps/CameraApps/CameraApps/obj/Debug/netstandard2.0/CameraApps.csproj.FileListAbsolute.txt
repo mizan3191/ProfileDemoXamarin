@@ -13,3 +13,19 @@ D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.d
 D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\refint\CameraApps.dll
 D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.pdb
 D:\Mysoft\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\ref\CameraApps.dll
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\bin\Debug\netstandard2.0\CameraApps.deps.json
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\bin\Debug\netstandard2.0\CameraApps.dll
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\bin\Debug\netstandard2.0\CameraApps.pdb
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.csproj.AssemblyReference.cache
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\ProfileUI.xaml.g.cs
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.AssemblyInfoInputs.cache
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.AssemblyInfo.cs
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.csproj.CoreCompileInputs.cache
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.dll
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\refint\CameraApps.dll
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\CameraApps.pdb
+D:\Mysoft\Upload git\XamarinDemo\New folder\CameraApps\CameraApps\CameraApps\obj\Debug\netstandard2.0\ref\CameraApps.dll
