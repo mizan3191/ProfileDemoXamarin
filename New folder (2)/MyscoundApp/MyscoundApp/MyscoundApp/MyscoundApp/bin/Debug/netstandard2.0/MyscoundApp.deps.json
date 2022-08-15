@@ -12,6 +12,7 @@
           "NETStandard.Library": "2.0.3",
           "NPOI": "2.5.6",
           "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
           "System.ComponentModel.Annotations": "5.0.0",
           "System.Security.Cryptography.Xml": "6.0.0",
           "Xamarin.Essentials": "1.7.0",
@@ -74,6 +75,117 @@
           "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {
             "assemblyVersion": "1.3.3.11",
             "fileVersion": "1.3.3.11"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.2.0.43": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.2.0.43",
+            "fileVersion": "20.2.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfAutoComplete/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfAutoComplete.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfDataForm/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Buttons": "20.2.0.43",
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Syncfusion.Xamarin.SfAutoComplete": "20.2.0.43",
+          "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
+          "Syncfusion.Xamarin.SfMaskedEdit": "20.2.0.43",
+          "Syncfusion.Xamarin.SfNumericTextBox": "20.2.0.43",
+          "Syncfusion.Xamarin.SfNumericUpDown": "20.2.0.43",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfDataForm.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfMaskedEdit/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfMaskedEdit.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfNumericTextBox.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericUpDown/20.2.0.43": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "20.2.0.43",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "assemblyVersion": "20.2451.0.43",
+            "fileVersion": "20.2451.0.43"
           }
         }
       },
@@ -306,6 +418,69 @@
       "sha512": "sha512-N8+hwhsKZm25tDJfWpBSW7EGhH/R7EMuiX+KJ4C4u+fCWVc1lJ5zg1u3S1RPPVYgTqhx/C3hxrqUpi6RwK5+Tg==",
       "path": "sharpziplib/1.3.3",
       "hashPath": "sharpziplib.1.3.3.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6gcTsltYyA9EK7/FhIESvYAA1O9PrJQrXK1vyx3b0dbGa5oii22IBc4rmFIZvomrK7EFQDpkGpEtCQfUw+PMkA==",
+      "path": "syncfusion.licensing/20.2.0.43",
+      "hashPath": "syncfusion.licensing.20.2.0.43.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Buttons/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rruqAKSQg2GQPvKlXyisb2Bj68psZfBB3PEmLNboqxbr7Es8+z88K6IU4pzNigo14wqYJ+PXVT6g2tykpPmG+w==",
+      "path": "syncfusion.xamarin.buttons/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.buttons.20.2.0.43.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wCdZ7goEyan9vmpzCC3xG7syPL/Vt31kirKLzWf6zuLdzWo87JoHHd0YQ79yMjxrbr4nXKlXJZYETQIYauGDSw==",
+      "path": "syncfusion.xamarin.core/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.core.20.2.0.43.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfAutoComplete/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vYNtYJ8ME7ppUvvLPhxqiW3XX6+cbR8T3oA9EAqFCUQtDlDnDXLkmfpfh6WOtsSzdDaweDb/FLp6LJN6mbR1dA==",
+      "path": "syncfusion.xamarin.sfautocomplete/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.sfautocomplete.20.2.0.43.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfComboBox/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DP+xdOAehh902Bzbk8mPbMraP3nZn5Q/Vy6m7YSkCCH8ElP5LdZzUIa/LqP3fjRJZoAaCPtsx71xH/TA0C/vWQ==",
+      "path": "syncfusion.xamarin.sfcombobox/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.sfcombobox.20.2.0.43.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfDataForm/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fj0lVB01FFPgi+zqbNLldbZ01cpxOk2ETJj4KX8jHpFo6DvsqDbBl8L38kkoz5xLobUbDj4g63K/wDK/77omZQ==",
+      "path": "syncfusion.xamarin.sfdataform/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.sfdataform.20.2.0.43.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfMaskedEdit/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K9H2GTFTlLyOj/7C6x8yCsQWJgBaVyQAoBbHFvj3eqcuUOhgxC6OMkWnGA5F6W6iKEXEC/IffZnZYL2P3wsrXw==",
+      "path": "syncfusion.xamarin.sfmaskededit/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.sfmaskededit.20.2.0.43.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfNumericTextBox/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cu6VwJfZq+2gfyckwxyKT3Cv7iK95TuluYOvA8/FarUpoWER9mVzytVPxLVh3t4JNHHjFNwYUQ2qSDNl4uShHg==",
+      "path": "syncfusion.xamarin.sfnumerictextbox/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.sfnumerictextbox.20.2.0.43.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfNumericUpDown/20.2.0.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LZkdgWY62ux8qVHwzr6YGSuo+wNe3gu60vfCEFdY10fSsqUAkQwL8rQMb0eIzcxvZiICL4NDoYuuG7fgO+AUbw==",
+      "path": "syncfusion.xamarin.sfnumericupdown/20.2.0.43",
+      "hashPath": "syncfusion.xamarin.sfnumericupdown.20.2.0.43.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

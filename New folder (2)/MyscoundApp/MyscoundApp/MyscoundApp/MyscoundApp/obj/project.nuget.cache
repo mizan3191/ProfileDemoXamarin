@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4RV782usf2Z0aT177s6700O6PP7zNiJ4PVY7RA9qaNG6Ns9UdV/15SmOeRaMHewvuqMzmyLirWU4KNoooi+5rw==",
+  "dgSpecHash": "8HpDbuHtwMkIio4Zt8z7j459VIZJ0wXPW/7bPwb0SkJqwc9sE10Nm437yFPL1FlJ8wOEzYGUReFSPyTfPmVvCw==",
   "success": true,
   "projectFilePath": "D:\\Mysoft\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp\\MyscoundApp.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,15 @@
     "C:\\Users\\USER\\.nuget\\packages\\npoi\\2.5.6\\npoi.2.5.6.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.licensing\\20.2.0.43\\syncfusion.licensing.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.buttons\\20.2.0.43\\syncfusion.xamarin.buttons.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.core\\20.2.0.43\\syncfusion.xamarin.core.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfautocomplete\\20.2.0.43\\syncfusion.xamarin.sfautocomplete.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\20.2.0.43\\syncfusion.xamarin.sfcombobox.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfdataform\\20.2.0.43\\syncfusion.xamarin.sfdataform.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfmaskededit\\20.2.0.43\\syncfusion.xamarin.sfmaskededit.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfnumerictextbox\\20.2.0.43\\syncfusion.xamarin.sfnumerictextbox.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfnumericupdown\\20.2.0.43\\syncfusion.xamarin.sfnumericupdown.20.2.0.43.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
