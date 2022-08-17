@@ -22,8 +22,9 @@ public class ItemAdapter
 	public ItemAdapter ()
 	{
 		super ();
-		if (getClass () == ItemAdapter.class)
+		if (getClass () == ItemAdapter.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.ComboBox.ItemAdapter, Syncfusion.SfComboBox.XForms.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

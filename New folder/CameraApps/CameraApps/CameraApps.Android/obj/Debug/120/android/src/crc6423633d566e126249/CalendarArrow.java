@@ -20,32 +20,36 @@ public class CalendarArrow
 	public CalendarArrow (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == CalendarArrow.class)
+		if (getClass () == CalendarArrow.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Calendar.CalendarArrow, Syncfusion.SfCalendar.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public CalendarArrow (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == CalendarArrow.class)
+		if (getClass () == CalendarArrow.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Calendar.CalendarArrow, Syncfusion.SfCalendar.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public CalendarArrow (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == CalendarArrow.class)
+		if (getClass () == CalendarArrow.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Calendar.CalendarArrow, Syncfusion.SfCalendar.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 
 	public CalendarArrow (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{
 		super (p0, p1, p2, p3);
-		if (getClass () == CalendarArrow.class)
+		if (getClass () == CalendarArrow.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Calendar.CalendarArrow, Syncfusion.SfCalendar.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
+		}
 	}
 
 

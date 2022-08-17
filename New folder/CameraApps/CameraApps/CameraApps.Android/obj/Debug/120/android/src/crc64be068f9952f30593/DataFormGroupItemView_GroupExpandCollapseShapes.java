@@ -19,15 +19,17 @@ public class DataFormGroupItemView_GroupExpandCollapseShapes
 	public DataFormGroupItemView_GroupExpandCollapseShapes ()
 	{
 		super ();
-		if (getClass () == DataFormGroupItemView_GroupExpandCollapseShapes.class)
+		if (getClass () == DataFormGroupItemView_GroupExpandCollapseShapes.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.DataForm.DataFormGroupItemView+GroupExpandCollapseShapes, Syncfusion.SfDataForm.XForms.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public DataFormGroupItemView_GroupExpandCollapseShapes (crc64be068f9952f30593.DataFormGroupItemView p0)
 	{
 		super ();
-		if (getClass () == DataFormGroupItemView_GroupExpandCollapseShapes.class)
+		if (getClass () == DataFormGroupItemView_GroupExpandCollapseShapes.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.DataForm.DataFormGroupItemView+GroupExpandCollapseShapes, Syncfusion.SfDataForm.XForms.Android", "Syncfusion.Android.DataForm.DataFormGroupItemView, Syncfusion.SfDataForm.XForms.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

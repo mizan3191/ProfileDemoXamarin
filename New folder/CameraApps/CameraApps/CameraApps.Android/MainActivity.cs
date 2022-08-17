@@ -2,6 +2,8 @@
 using Android.Content.PM;
 using Android.OS;
 using Plugin.Media;
+using Plugin.Toasts;
+using Xamarin.Forms;
 
 namespace CameraApps.Droid
 {
@@ -15,10 +17,14 @@ namespace CameraApps.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+            ToastNotification.Init(this);
+            Xamarin.Essentials.Platform.Init(this, bundle);
+
 
             await CrossMedia.Current.Initialize();
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            DependencyService.Register<ToastNotification>();
             LoadApplication(new App());
         }
     }

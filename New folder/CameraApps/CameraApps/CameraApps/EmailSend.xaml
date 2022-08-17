@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CameraApps.EmailSend">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry Text="" Placeholder="To Email " x:Name="emailTo"/>
+            <Entry Text="" Placeholder="Subject" x:Name="emailSubject"/>
+            <Entry Text="" Placeholder="Body" x:Name="emailBody"/>
+            
+            <Button Text="Send"  Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

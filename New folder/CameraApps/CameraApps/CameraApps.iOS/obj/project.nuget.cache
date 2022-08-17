@@ -1,25 +1,40 @@
 {
   "version": 2,
-  "dgSpecHash": "ffC6Qe9+VuAD+EoTNN1fSWOErowD1feP0t/FNO+OttVbAlPMgbguMaztknNOI/q8SB4dvOMyOEswjTdnhSq1AQ==",
+  "dgSpecHash": "3HwWmfADhlietdOFDclhIrx5k6Fn9AHzuuTPwmMS27CJAPqCVAGYgr7mi+IJ7MgvUOZ1DWgjRB4sXjKJkFIcCQ==",
   "success": true,
-  "projectFilePath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps.iOS\\CameraApps.iOS.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\New folder\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps.iOS\\CameraApps.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.licensing\\20.2.0.43\\syncfusion.licensing.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.buttons\\20.2.0.43\\syncfusion.xamarin.buttons.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.core\\20.2.0.43\\syncfusion.xamarin.core.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfautocomplete\\20.2.0.43\\syncfusion.xamarin.sfautocomplete.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfcalendar\\20.2.0.43\\syncfusion.xamarin.sfcalendar.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\20.2.0.43\\syncfusion.xamarin.sfcombobox.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfdataform\\20.2.0.43\\syncfusion.xamarin.sfdataform.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfmaskededit\\20.2.0.43\\syncfusion.xamarin.sfmaskededit.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfnumerictextbox\\20.2.0.43\\syncfusion.xamarin.sfnumerictextbox.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfnumericupdown\\20.2.0.43\\syncfusion.xamarin.sfnumericupdown.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\syncfusion.xamarin.sfpicker\\20.2.0.43\\syncfusion.xamarin.sfpicker.20.2.0.43.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.licensing\\20.2.0.43\\syncfusion.licensing.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.buttons\\20.2.0.43\\syncfusion.xamarin.buttons.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.core\\20.2.0.43\\syncfusion.xamarin.core.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.sfautocomplete\\20.2.0.43\\syncfusion.xamarin.sfautocomplete.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.sfcalendar\\20.2.0.43\\syncfusion.xamarin.sfcalendar.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\20.2.0.43\\syncfusion.xamarin.sfcombobox.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.sfdataform\\20.2.0.43\\syncfusion.xamarin.sfdataform.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.sfmaskededit\\20.2.0.43\\syncfusion.xamarin.sfmaskededit.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.sfnumerictextbox\\20.2.0.43\\syncfusion.xamarin.sfnumerictextbox.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.sfnumericupdown\\20.2.0.43\\syncfusion.xamarin.sfnumericupdown.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.xamarin.sfpicker\\20.2.0.43\\syncfusion.xamarin.sfpicker.20.2.0.43.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\toasts.forms.plugin\\3.3.2\\toasts.forms.plugin.3.3.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.3 to 1.7.0. Reference the package directly from the project to select a different version. \r\n CameraApps.iOS -> CameraApps -> Xamarin.Essentials (>= 1.7.3) \r\n CameraApps.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

@@ -29,32 +29,36 @@ public class SfCheckBox
 	public SfCheckBox (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == SfCheckBox.class)
+		if (getClass () == SfCheckBox.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.Buttons.SfCheckBox, Syncfusion.Buttons.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public SfCheckBox (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == SfCheckBox.class)
+		if (getClass () == SfCheckBox.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.Buttons.SfCheckBox, Syncfusion.Buttons.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public SfCheckBox (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == SfCheckBox.class)
+		if (getClass () == SfCheckBox.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.Buttons.SfCheckBox, Syncfusion.Buttons.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 
 	public SfCheckBox (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{
 		super (p0, p1, p2, p3);
-		if (getClass () == SfCheckBox.class)
+		if (getClass () == SfCheckBox.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.Buttons.SfCheckBox, Syncfusion.Buttons.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
+		}
 	}
 
 

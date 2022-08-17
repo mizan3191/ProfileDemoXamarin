@@ -21,7 +21,7 @@
     </ContentPage.Resources>
     <ContentPage.Content>
             
-            <StackLayout Background="white" >
+            <StackLayout Background="white"  Margin="0,20,0,10">
 
                 <StackLayout>
                     <Grid BackgroundColor="White">
@@ -44,17 +44,20 @@
                                    AbsoluteLayout.LayoutFlags="PositionProportional"
                                 AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100" 
                                    Style="{StaticResource stlImg}" HeightRequest="180" WidthRequest="180" >
-                                <Image  Source="testimg.jpg" VerticalOptions="Start" Aspect="AspectFill"    />
+                            <Image x:Name="resultImage" Source="testimg.jpg" VerticalOptions="Start" Aspect="AspectFill"    />
                             </Frame>
 
-                            <ImageButton Source="camera.png" x:Name="cameraButton" 
-                                 TranslationY="-190" TranslationX="-70" 
+                           
+                        </AbsoluteLayout>
+
+                    <ImageButton Source="camera.png" x:Name="cameraButton" WidthRequest="20" HeightRequest="20"
+                                 TranslationY="-70" TranslationX="-70" 
                                  Padding="0" Margin="0" AbsoluteLayout.LayoutFlags="PositionProportional" 
                                  AbsoluteLayout.LayoutBounds="0.5, 0, 30, 30" BorderWidth="2"
                                  HorizontalOptions="Center" VerticalOptions="CenterAndExpand" 
                                  Clicked="ImageButton_Clicked" />
-                        </AbsoluteLayout>
-                    </Grid>
+
+                </Grid>
                 </StackLayout>
 
             <StackLayout Padding="20,0,20,0" TranslationX="0" TranslationY="-235" BackgroundColor="White">
@@ -67,26 +70,27 @@
                             <ColumnDefinition  />
                             <ColumnDefinition  />
                         </Grid.ColumnDefinitions>
-
-                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="0" Margin="0" BackgroundColor="White"
+                            
+                    <inputLayout:SfTextInputLayout Grid.Column="0" Grid.Row="0" Margin="0" BackgroundColor="White" 
                             Hint="FirstName" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Text" BackgroundColor="White" />
+                        
+                            <Entry TextColor="Black" Keyboard="Text" FontSize="12" BackgroundColor="White" />
                         </inputLayout:SfTextInputLayout>
 
                     <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="0" Margin="0" BackgroundColor="White"
-                            Hint="FirstName" 
+                            Hint="MiddleName" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Text" BackgroundColor="White"/>
+                        <Entry TextColor="Black" Keyboard="Text" FontSize="12" BackgroundColor="White"/>
                         </inputLayout:SfTextInputLayout>
 
                     <inputLayout:SfTextInputLayout Grid.Column="2" Grid.Row="0" Margin="0" BackgroundColor="White"
-                            Hint="FirstName" 
+                            Hint="LastName" 
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
-                        <Entry TextColor="Black" Keyboard="Text" BackgroundColor="White" />
+                        <Entry TextColor="Black" Keyboard="Text" FontSize="12" BackgroundColor="White" />
                         </inputLayout:SfTextInputLayout>
                     </Grid>
 
@@ -106,7 +110,7 @@
                         Hint="Email" 
                         ContainerType="Outlined"
                         OutlineCornerRadius="8">
-                            <Entry TextColor="Black" Keyboard="Email" />
+                        <Entry TextColor="Black" Keyboard="Email" FontSize="12" />
                         </inputLayout:SfTextInputLayout>
 
                     <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="0" Margin="0,0,0,5"
@@ -114,7 +118,7 @@
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
 
-                        <Picker x:Name="GenderPicker" >
+                        <Picker x:Name="GenderPicker"  FontSize="12">
                             <Picker.ItemsSource>
                                 <x:Array Type="{x:Type x:String}">
                                     <x:String>Male</x:String>
@@ -131,7 +135,7 @@
                         Hint="Tribal Enrollment Number" 
                         ContainerType="Outlined"
                         OutlineCornerRadius="8">
-                            <Entry TextColor="Black" Keyboard="Text"/>
+                        <Entry TextColor="Black" Keyboard="Text" FontSize="12"/>
                         </inputLayout:SfTextInputLayout>
 
                     <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="1" Margin="0,0,0,5"
@@ -139,8 +143,8 @@
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
 
-                        <DatePicker x:Name="startDatePicker"
-                                    Format="D" />
+                        <DatePicker x:Name="startDatePicker" FontSize="12"
+                                    Format="MM/dd/yyyy" />
 
                     </inputLayout:SfTextInputLayout>
 
@@ -149,7 +153,7 @@
                         Hint="Address" 
                         ContainerType="Outlined"
                         OutlineCornerRadius="8">
-                            <Entry TextColor="Black" Keyboard="Text" />
+                        <Entry TextColor="Black" Keyboard="Text" FontSize="12" />
                         </inputLayout:SfTextInputLayout>
 
                     <inputLayout:SfTextInputLayout Grid.Column="1" Grid.Row="2" Margin="0,0,0,5"
@@ -164,7 +168,7 @@
                         ContainerType="Outlined"
                         OutlineCornerRadius="8">
 
-                        <Picker x:Name="StatePicker" >
+                        <Picker x:Name="StatePicker" FontSize="12" >
                             <Picker.ItemsSource>
                                 <x:Array Type="{x:Type x:String}">
                                     <x:String>Mymensingh</x:String>
@@ -185,7 +189,7 @@
                             ContainerType="Outlined"
                             OutlineCornerRadius="8">
 
-                        <Entry TextColor="Black" Keyboard="Numeric"/>
+                        <Entry TextColor="Black" Keyboard="Numeric" FontSize="12"/>
 
                     </inputLayout:SfTextInputLayout>
                     </Grid>

@@ -22,15 +22,17 @@ public class DataFormRecyclerViewAdapter
 	public DataFormRecyclerViewAdapter ()
 	{
 		super ();
-		if (getClass () == DataFormRecyclerViewAdapter.class)
+		if (getClass () == DataFormRecyclerViewAdapter.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.DataForm.DataFormRecyclerViewAdapter, Syncfusion.SfDataForm.XForms.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public DataFormRecyclerViewAdapter (android.content.Context p0, crc64be068f9952f30593.ScrollPanel p1)
 	{
 		super ();
-		if (getClass () == DataFormRecyclerViewAdapter.class)
+		if (getClass () == DataFormRecyclerViewAdapter.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.DataForm.DataFormRecyclerViewAdapter, Syncfusion.SfDataForm.XForms.Android", "Android.Content.Context, Mono.Android:Syncfusion.Android.DataForm.ScrollPanel, Syncfusion.SfDataForm.XForms.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 

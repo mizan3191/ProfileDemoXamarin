@@ -10,7 +10,8 @@ namespace CameraApps
         {
             InitializeComponent();
 
-            MainPage = new ProfileUI();
+           //MainPage = new ProfileUI();
+           MainPage = new Profile();
         }
 
         protected override void OnStart()

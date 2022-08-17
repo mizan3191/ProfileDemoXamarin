@@ -21,8 +21,9 @@ public class SfCheckBox_SfSavedState_SavedStateCreator
 	public SfCheckBox_SfSavedState_SavedStateCreator ()
 	{
 		super ();
-		if (getClass () == SfCheckBox_SfSavedState_SavedStateCreator.class)
+		if (getClass () == SfCheckBox_SfSavedState_SavedStateCreator.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.Buttons.SfCheckBox+SfSavedState+SavedStateCreator, Syncfusion.Buttons.XForms.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

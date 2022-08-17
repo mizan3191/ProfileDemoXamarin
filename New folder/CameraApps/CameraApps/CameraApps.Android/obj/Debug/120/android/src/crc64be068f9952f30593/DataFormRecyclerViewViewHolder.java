@@ -18,8 +18,9 @@ public class DataFormRecyclerViewViewHolder
 	public DataFormRecyclerViewViewHolder (android.view.View p0)
 	{
 		super (p0);
-		if (getClass () == DataFormRecyclerViewViewHolder.class)
+		if (getClass () == DataFormRecyclerViewViewHolder.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.DataForm.DataFormRecyclerViewViewHolder, Syncfusion.SfDataForm.XForms.Android", "Android.Views.View, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 	private java.util.ArrayList refList;

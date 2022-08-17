@@ -18,8 +18,9 @@ public class ViewHolder
 	public ViewHolder (android.view.View p0)
 	{
 		super (p0);
-		if (getClass () == ViewHolder.class)
+		if (getClass () == ViewHolder.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.ComboBox.ViewHolder, Syncfusion.SfComboBox.XForms.Android", "Android.Views.View, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 	private java.util.ArrayList refList;

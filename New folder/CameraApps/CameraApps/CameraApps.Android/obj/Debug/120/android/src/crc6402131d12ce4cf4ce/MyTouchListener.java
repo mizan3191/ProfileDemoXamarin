@@ -20,15 +20,17 @@ public class MyTouchListener
 	public MyTouchListener ()
 	{
 		super ();
-		if (getClass () == MyTouchListener.class)
+		if (getClass () == MyTouchListener.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Numericupdown.MyTouchListener, Syncfusion.SfNumericUpDown.XForms.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public MyTouchListener (crc6402131d12ce4cf4ce.SfNumericUpDown p0, crc6402131d12ce4cf4ce.SfNumericTextBox p1, boolean p2)
 	{
 		super ();
-		if (getClass () == MyTouchListener.class)
+		if (getClass () == MyTouchListener.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Numericupdown.MyTouchListener, Syncfusion.SfNumericUpDown.XForms.Android", "Com.Syncfusion.Numericupdown.SfNumericUpDown, Syncfusion.SfNumericUpDown.XForms.Android:Com.Syncfusion.Numericupdown.SfNumericTextBox, Syncfusion.SfNumericUpDown.XForms.Android:System.Boolean, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 

@@ -18,24 +18,27 @@ public class SfRadioButtonRenderer
 	public SfRadioButtonRenderer (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == SfRadioButtonRenderer.class)
+		if (getClass () == SfRadioButtonRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Buttons.SfRadioButtonRenderer, Syncfusion.Buttons.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public SfRadioButtonRenderer (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == SfRadioButtonRenderer.class)
+		if (getClass () == SfRadioButtonRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Buttons.SfRadioButtonRenderer, Syncfusion.Buttons.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public SfRadioButtonRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == SfRadioButtonRenderer.class)
+		if (getClass () == SfRadioButtonRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Buttons.SfRadioButtonRenderer, Syncfusion.Buttons.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 	private java.util.ArrayList refList;

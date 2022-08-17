@@ -20,32 +20,36 @@ public class MonthViewItem
 	public MonthViewItem (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == MonthViewItem.class)
+		if (getClass () == MonthViewItem.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Calendar.MonthViewItem, Syncfusion.SfCalendar.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public MonthViewItem (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == MonthViewItem.class)
+		if (getClass () == MonthViewItem.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Calendar.MonthViewItem, Syncfusion.SfCalendar.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public MonthViewItem (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == MonthViewItem.class)
+		if (getClass () == MonthViewItem.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Calendar.MonthViewItem, Syncfusion.SfCalendar.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 
 	public MonthViewItem (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{
 		super (p0, p1, p2, p3);
-		if (getClass () == MonthViewItem.class)
+		if (getClass () == MonthViewItem.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Calendar.MonthViewItem, Syncfusion.SfCalendar.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
+		}
 	}
 
 

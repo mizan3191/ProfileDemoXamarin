@@ -14,8 +14,9 @@
           "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
           "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
+          "Toasts.Forms.Plugin": "3.3.2",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2196"
         },
         "runtime": {
@@ -179,9 +180,17 @@
           }
         }
       },
+      "Toasts.Forms.Plugin/3.3.2": {
+        "runtime": {
+          "lib/netstandard1.1/Toasts.Forms.Plugin.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Xam.Plugin.Media/5.0.1": {
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0"
+          "Xamarin.Essentials": "1.7.3"
         },
         "runtime": {
           "lib/netstandard2.0/Plugin.Media.dll": {
@@ -190,7 +199,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.7.3": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -330,6 +339,13 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
+    "Toasts.Forms.Plugin/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cg+uc+GPV2rfGLYl/gyW7oo5YPPZ0/jG1Bj6KRihecoOy0Ju4HfKith9pd8CIXerS9DH7x8vqV5jrPaKXEGenA==",
+      "path": "toasts.forms.plugin/3.3.2",
+      "hashPath": "toasts.forms.plugin.3.3.2.nupkg.sha512"
+    },
     "Xam.Plugin.Media/5.0.1": {
       "type": "package",
       "serviceable": true,
@@ -337,12 +353,12 @@
       "path": "xam.plugin.media/5.0.1",
       "hashPath": "xam.plugin.media.5.0.1.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.7.0": {
+    "Xamarin.Essentials/1.7.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
-      "path": "xamarin.essentials/1.7.0",
-      "hashPath": "xamarin.essentials.1.7.0.nupkg.sha512"
+      "sha512": "sha512-b6NfxOfkmMGN54a4OcV/D7KXclWWqFwgixMPzlAku3kfKgUBGW4vBdNaujIBmk57NbGpWB2IS78ek0gDHNKwoQ==",
+      "path": "xamarin.essentials/1.7.3",
+      "hashPath": "xamarin.essentials.1.7.3.nupkg.sha512"
     },
     "Xamarin.Forms/5.0.0.2196": {
       "type": "package",

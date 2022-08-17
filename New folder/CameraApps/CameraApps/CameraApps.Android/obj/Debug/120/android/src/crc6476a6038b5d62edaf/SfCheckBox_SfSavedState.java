@@ -19,24 +19,27 @@ public class SfCheckBox_SfSavedState
 	public SfCheckBox_SfSavedState (android.os.Parcel p0)
 	{
 		super (p0);
-		if (getClass () == SfCheckBox_SfSavedState.class)
+		if (getClass () == SfCheckBox_SfSavedState.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.Buttons.SfCheckBox+SfSavedState, Syncfusion.Buttons.XForms.Android", "Android.OS.Parcel, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public SfCheckBox_SfSavedState (android.os.Parcel p0, java.lang.ClassLoader p1)
 	{
 		super (p0, p1);
-		if (getClass () == SfCheckBox_SfSavedState.class)
+		if (getClass () == SfCheckBox_SfSavedState.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.Buttons.SfCheckBox+SfSavedState, Syncfusion.Buttons.XForms.Android", "Android.OS.Parcel, Mono.Android:Java.Lang.ClassLoader, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public SfCheckBox_SfSavedState (android.os.Parcelable p0)
 	{
 		super (p0);
-		if (getClass () == SfCheckBox_SfSavedState.class)
+		if (getClass () == SfCheckBox_SfSavedState.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.Buttons.SfCheckBox+SfSavedState, Syncfusion.Buttons.XForms.Android", "Android.OS.IParcelable, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

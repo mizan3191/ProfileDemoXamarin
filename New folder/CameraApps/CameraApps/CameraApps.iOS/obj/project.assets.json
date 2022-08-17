@@ -18,11 +18,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll": {}
         }
       },
@@ -33,11 +37,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
@@ -48,11 +56,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         }
       },
@@ -63,11 +75,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
         }
       },
@@ -78,11 +94,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         }
       },
@@ -100,11 +120,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.iOS.dll": {}
         }
       },
@@ -115,11 +139,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
         }
       },
@@ -130,14 +158,22 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {
+            "related": ".XML"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {
+            "related": ".XML"
+          }
         }
       },
       "Syncfusion.Xamarin.SfNumericUpDown/20.2.0.43": {
@@ -147,11 +183,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
         }
       },
@@ -162,14 +202,22 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -190,6 +238,21 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Toasts.Forms.Plugin/3.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll": {}
+        }
+      },
       "Xam.Plugin.Media/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -199,10 +262,14 @@
           "System.Drawing.Common.dll"
         ],
         "compile": {
-          "lib/xamarinios10/Plugin.Media.dll": {}
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/xamarinios10/Plugin.Media.dll": {}
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -216,25 +283,45 @@
           "System.Numerics"
         ],
         "compile": {
-          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+          "lib/xamarinios10/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+          "lib/xamarinios10/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Forms/5.0.0.2196": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
@@ -353,8 +440,9 @@
           "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
           "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
+          "Toasts.Forms.Plugin": "3.3.2",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
@@ -382,11 +470,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll": {}
         }
       },
@@ -397,11 +489,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
@@ -412,11 +508,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         }
       },
@@ -427,11 +527,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
         }
       },
@@ -442,11 +546,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         }
       },
@@ -464,11 +572,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.iOS.dll": {}
         }
       },
@@ -479,11 +591,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
         }
       },
@@ -494,14 +610,22 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {
+            "related": ".XML"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {
+            "related": ".XML"
+          }
         }
       },
       "Syncfusion.Xamarin.SfNumericUpDown/20.2.0.43": {
@@ -511,11 +635,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
         }
       },
@@ -526,14 +654,22 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -554,6 +690,21 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Toasts.Forms.Plugin/3.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll": {}
+        }
+      },
       "Xam.Plugin.Media/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -563,10 +714,14 @@
           "System.Drawing.Common.dll"
         ],
         "compile": {
-          "lib/xamarinios10/Plugin.Media.dll": {}
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/xamarinios10/Plugin.Media.dll": {}
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -580,25 +735,45 @@
           "System.Numerics"
         ],
         "compile": {
-          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+          "lib/xamarinios10/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+          "lib/xamarinios10/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Forms/5.0.0.2196": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
@@ -717,8 +892,9 @@
           "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
           "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
+          "Toasts.Forms.Plugin": "3.3.2",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
@@ -746,11 +922,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll": {}
         }
       },
@@ -761,11 +941,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
@@ -776,11 +960,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         }
       },
@@ -791,11 +979,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
         }
       },
@@ -806,11 +998,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         }
       },
@@ -828,11 +1024,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.iOS.dll": {}
         }
       },
@@ -843,11 +1043,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
         }
       },
@@ -858,14 +1062,22 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {
+            "related": ".XML"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {
+            "related": ".XML"
+          }
         }
       },
       "Syncfusion.Xamarin.SfNumericUpDown/20.2.0.43": {
@@ -875,11 +1087,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
         }
       },
@@ -890,14 +1106,22 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -918,6 +1142,21 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Toasts.Forms.Plugin/3.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll": {}
+        }
+      },
       "Xam.Plugin.Media/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -927,10 +1166,14 @@
           "System.Drawing.Common.dll"
         ],
         "compile": {
-          "lib/xamarinios10/Plugin.Media.dll": {}
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/xamarinios10/Plugin.Media.dll": {}
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -944,25 +1187,45 @@
           "System.Numerics"
         ],
         "compile": {
-          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+          "lib/xamarinios10/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+          "lib/xamarinios10/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Forms/5.0.0.2196": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
@@ -1081,8 +1344,9 @@
           "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
           "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
+          "Toasts.Forms.Plugin": "3.3.2",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
@@ -1110,11 +1374,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll": {}
         }
       },
@@ -1125,11 +1393,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
@@ -1140,11 +1412,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll": {}
         }
       },
@@ -1155,11 +1431,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll": {}
         }
       },
@@ -1170,11 +1450,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         }
       },
@@ -1192,11 +1476,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfDataForm.XForms.iOS.dll": {}
         }
       },
@@ -1207,11 +1495,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll": {}
         }
       },
@@ -1222,14 +1514,22 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {
+            "related": ".XML"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll": {
+            "related": ".XML"
+          }
         }
       },
       "Syncfusion.Xamarin.SfNumericUpDown/20.2.0.43": {
@@ -1239,11 +1539,15 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.dll": {
+            "related": ".xml"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfNumericUpDown.XForms.iOS.dll": {}
         }
       },
@@ -1254,14 +1558,22 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.dll": {
+            "related": ".XML"
+          },
           "lib/Xamarin.iOS10/Syncfusion.SfPicker.XForms.iOS.dll": {},
-          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {}
+          "lib/Xamarin.iOS10/Syncfusion.SfPicker.iOS.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -1282,6 +1594,21 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Toasts.Forms.Plugin/3.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll": {}
+        }
+      },
       "Xam.Plugin.Media/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -1291,10 +1618,14 @@
           "System.Drawing.Common.dll"
         ],
         "compile": {
-          "lib/xamarinios10/Plugin.Media.dll": {}
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/xamarinios10/Plugin.Media.dll": {}
+          "lib/xamarinios10/Plugin.Media.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -1308,25 +1639,45 @@
           "System.Numerics"
         ],
         "compile": {
-          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+          "lib/xamarinios10/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+          "lib/xamarinios10/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Forms/5.0.0.2196": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
@@ -1445,8 +1796,9 @@
           "Syncfusion.Xamarin.SfComboBox": "20.2.0.43",
           "Syncfusion.Xamarin.SfDataForm": "20.2.0.43",
           "Syncfusion.Xamarin.SfPicker": "20.2.0.43",
+          "Toasts.Forms.Plugin": "3.3.2",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
@@ -1946,6 +2298,30 @@
         "version.txt"
       ]
     },
+    "Toasts.Forms.Plugin/3.3.2": {
+      "sha512": "Cg+uc+GPV2rfGLYl/gyW7oo5YPPZ0/jG1Bj6KRihecoOy0Ju4HfKith9pd8CIXerS9DH7x8vqV5jrPaKXEGenA==",
+      "type": "package",
+      "path": "toasts.forms.plugin/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.dll",
+        "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.pdb",
+        "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll",
+        "lib/netstandard1.1/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/netstandard1.1/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/uap10.0/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/uap10.0/Toasts.Forms.Plugin.UWP.dll",
+        "lib/uap10.0/Toasts.Forms.Plugin.UWP.pdb",
+        "toasts.forms.plugin.3.3.2.nupkg.sha512",
+        "toasts.forms.plugin.nuspec"
+      ]
+    },
     "Xam.Plugin.Media/5.0.1": {
       "sha512": "UUR31EEnhDVa4IXgVfQIAL3u9v6YAyppsb5UlO9MNJ4quGGkfcWX++JexjB1nMGqvCzsjAT2t32drKDIXoW4SQ==",
       "type": "package",
@@ -2258,24 +2634,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps.iOS\\CameraApps.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\New folder\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps.iOS\\CameraApps.iOS.csproj",
       "projectName": "CameraApps.iOS",
-      "projectPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps.iOS\\CameraApps.iOS.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps.iOS\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\New folder\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps.iOS\\CameraApps.iOS.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\New folder\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2289,8 +2665,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj": {
-              "projectPath": "D:\\Mysoft\\Upload git\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj"
+            "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\New folder\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\MySoft\\MyGitDemo\\New folder\\XamarinDemo\\New folder\\CameraApps\\CameraApps\\CameraApps\\CameraApps.csproj"
             }
           }
         }
@@ -2321,5 +2697,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.3 to 1.7.0. Reference the package directly from the project to select a different version. \r\n CameraApps.iOS -> CameraApps -> Xamarin.Essentials (>= 1.7.3) \r\n CameraApps.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

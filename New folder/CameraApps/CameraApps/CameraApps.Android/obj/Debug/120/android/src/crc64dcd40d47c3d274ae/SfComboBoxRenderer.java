@@ -18,24 +18,27 @@ public class SfComboBoxRenderer
 	public SfComboBoxRenderer (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == SfComboBoxRenderer.class)
+		if (getClass () == SfComboBoxRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.ComboBox.SfComboBoxRenderer, Syncfusion.SfComboBox.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public SfComboBoxRenderer (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == SfComboBoxRenderer.class)
+		if (getClass () == SfComboBoxRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.ComboBox.SfComboBoxRenderer, Syncfusion.SfComboBox.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public SfComboBoxRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == SfComboBoxRenderer.class)
+		if (getClass () == SfComboBoxRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.ComboBox.SfComboBoxRenderer, Syncfusion.SfComboBox.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 	private java.util.ArrayList refList;

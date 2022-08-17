@@ -21,32 +21,36 @@ public class SfDataForm
 	public SfDataForm (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == SfDataForm.class)
+		if (getClass () == SfDataForm.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.DataForm.SfDataForm, Syncfusion.SfDataForm.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public SfDataForm (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == SfDataForm.class)
+		if (getClass () == SfDataForm.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.DataForm.SfDataForm, Syncfusion.SfDataForm.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public SfDataForm (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == SfDataForm.class)
+		if (getClass () == SfDataForm.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.DataForm.SfDataForm, Syncfusion.SfDataForm.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 
 	public SfDataForm (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{
 		super (p0, p1, p2, p3);
-		if (getClass () == SfDataForm.class)
+		if (getClass () == SfDataForm.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.Android.DataForm.SfDataForm, Syncfusion.SfDataForm.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
+		}
 	}
 
 

@@ -22,8 +22,9 @@ public class ItemAdapter
 	public ItemAdapter ()
 	{
 		super ();
-		if (getClass () == ItemAdapter.class)
+		if (getClass () == ItemAdapter.class) {
 			mono.android.TypeManager.Activate ("Com.Syncfusion.Autocomplete.ItemAdapter, Syncfusion.SfAutoComplete.XForms.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

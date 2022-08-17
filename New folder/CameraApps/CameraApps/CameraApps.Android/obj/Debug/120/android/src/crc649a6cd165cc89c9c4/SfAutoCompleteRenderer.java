@@ -18,24 +18,27 @@ public class SfAutoCompleteRenderer
 	public SfAutoCompleteRenderer (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == SfAutoCompleteRenderer.class)
+		if (getClass () == SfAutoCompleteRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.SfAutoComplete.XForms.Droid.SfAutoCompleteRenderer, Syncfusion.SfAutoComplete.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public SfAutoCompleteRenderer (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == SfAutoCompleteRenderer.class)
+		if (getClass () == SfAutoCompleteRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.SfAutoComplete.XForms.Droid.SfAutoCompleteRenderer, Syncfusion.SfAutoComplete.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public SfAutoCompleteRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == SfAutoCompleteRenderer.class)
+		if (getClass () == SfAutoCompleteRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.SfAutoComplete.XForms.Droid.SfAutoCompleteRenderer, Syncfusion.SfAutoComplete.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 	private java.util.ArrayList refList;
